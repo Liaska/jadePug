@@ -1,0 +1,18 @@
+- let pugToy = "https://cs5.livemaster.ru/storage/61/d1/904ce6d69a619f62c5956be8aai3.jpg"
+- let size = {width: "150px",height: "100px"}
+git init
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title PuggerBoy
+    body
+        section.main-section
+            h1.main-section__pug А собачка с сюрпризом
+            img.main-section_image(width=size.width height=size.width src="https://camo.githubusercontent.com/a43de8ca816e78b1c2666f7696f449b2eeddbeca/68747470733a2f2f63646e2e7261776769742e636f6d2f7075676a732f7075672d6c6f676f2f656563343336636565386664396431373236643738333963626539396431663639343639326330632f5356472f7075672d66696e616c2d6c6f676f2d5f2d636f6c6f75722d3132382e737667")
+        section.about
+            .about__text Почему ты такой серьезный?
+                img.about__text_joker(width=size.width height=size.height src="https://i.imgur.com/b0i4rWHl.jpg")
+            .about__toys Смотри какие игрушки
+                img(src=pugToy width=size.width height=size.height)
